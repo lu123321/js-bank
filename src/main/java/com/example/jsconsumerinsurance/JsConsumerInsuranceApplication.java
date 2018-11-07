@@ -9,6 +9,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 public class JsConsumerInsuranceApplication {
 
     public static void main(String[] args) {
+        System.out.println(111);
         SpringApplication.run(JsConsumerInsuranceApplication.class, args);
     }
 }
